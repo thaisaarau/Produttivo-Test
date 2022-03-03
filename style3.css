@@ -6,10 +6,16 @@
 
 }
 
-.cabeçalho {
+.cabecalho {
    
    	padding-left: 20px;
-   	font-size : 17px;
+   	font-size : 18px;
    	color: #32CD32;
+
+}
+#missao{
+	text-align: center;
+	font-size : 20px;
+	color: #99A3A4 ;
 
 }
