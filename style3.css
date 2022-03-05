@@ -7,6 +7,12 @@ body{
 	font-size: 22px;
 	margin-bottom: 0px;
 }
+
+.inicio-pagina{
+	display: flex;
+	justify-content: space-between;
+	
+}
 .cabecalho {
 	display: flex;
 	flex-direction: column;
@@ -16,11 +22,18 @@ hr {
 	width: 100%;
 }
 
+
 .subtitulo {
    	font-size : 20px;
    	color: #32CD32;
    	margin-bottom: 10px;
    	line-height: 1px;
+}
+.numero{
+	font-size : 20px;
+	color: #32CD32;
+	font-weight: bold;
+	
 }
 
 #evidencias{
@@ -59,28 +72,42 @@ table{
   width: 100%;
 }
 .cabecalho-informacoes{
-  background: #32CD32;
-  color: #FFFFFF;
+	background: #32CD32;
+	color: #FFFFFF;
 }
 .cabecalho-informacoes td{
-  text-align: center ;
-  border:0px 
+    text-align: center ;
+	border:0px 
 }
 
 .corpo-informacoes td {
-  padding: 10px 10px;
+	padding: 10px 10px;
 }
 .primeira-coluna{
-  text-align: left;
+	text-align: left;
 }
 
 #map {
 	display: flex ;
 	justify-content: space-around;
-
 }
+
+.produttivo{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	padding: 4px;
+}
+
 .rodape{
 	color: #32CD32;
 	font-size : 18px;
 	font-weight: bold;
 }
+
+.logo-produttivo{
+	width: 35px;
+	padding: 4px;
+}
+
+	
